@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d8e2c42-a94f-4ce0-a45e-fc7d4c8cb28e" name="Default" comment="" />
+    <list default="true" id="6d8e2c42-a94f-4ce0-a45e-fc7d4c8cb28e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +19,7 @@
       <file leaf-file-name="AdminRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/repository/AdminRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="162">
               <caret line="14" column="51" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -25,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-beans.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new-beans.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/new-beans.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -34,10 +37,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AdminRepositoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sh/repository/AdminRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="792">
               <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,7 +61,7 @@
       <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
+            <state relative-caret-position="378">
               <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,7 +73,7 @@
       <file leaf-file-name="UserDaoSpring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/dao/UserDaoSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
+            <state relative-caret-position="306">
               <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,7 +97,7 @@
       <file leaf-file-name="AdminCrudRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/repository/AdminCrudRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="162">
               <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,6 +141,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/sh/repository/AdminRepository.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/new-beans.xml" root0="SKIP_INSPECTION" />
@@ -152,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/new-beans.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SpringDataTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sh/dao/UserDaoSpring.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sh/domain/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sh/repository/AdminCrudRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sh/repository/AdminCrudRepositoryTest.java" />
@@ -160,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sh/service/AdminCrudService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sh/repository/AdminRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sh/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -188,130 +203,37 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1378" />
     <option name="height" value="733" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-data-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-data-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-data-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-data-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,7 +269,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="AdminCrudRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata" />
+      <module name="spring-data-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sh.repository.*" />
@@ -370,7 +292,7 @@
       <patterns />
     </configuration>
     <configuration name="AdminCrudRepositoryTest.saveList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata" />
+      <module name="spring-data-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sh.repository.*" />
@@ -393,7 +315,7 @@
       <patterns />
     </configuration>
     <configuration name="AdminRepositoryTest.findBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata" />
+      <module name="spring-data-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sh.repository.*" />
@@ -416,7 +338,7 @@
       <patterns />
     </configuration>
     <configuration name="AdminRepositoryTest.findByAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata" />
+      <module name="spring-data-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sh.repository.*" />
@@ -439,7 +361,7 @@
       <patterns />
     </configuration>
     <configuration name="AdminRepositoryTest.updateAndSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springdata" />
+      <module name="spring-data-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sh.repository.*" />
@@ -529,6 +451,7 @@
       <workItem from="1546478435128" duration="22796000" />
       <workItem from="1546823830696" duration="17843000" />
       <workItem from="1547089197170" duration="1373000" />
+      <workItem from="1547101017359" duration="108000" />
     </task>
     <servers />
   </component>
@@ -565,7 +488,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42012000" />
+    <option name="totallyTimeSpent" value="42120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -578,6 +501,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32838285" />
@@ -587,13 +511,13 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32838285" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.12556732" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.5049505" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.19818456" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.20121029" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -603,11 +527,11 @@
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32838285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,6 +541,73 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/dao/UserDaoSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sh/repository/AdminCrudRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/repository/AdminCrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/service/AdminCrudService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/new-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/repository/AdminRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -809,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sh/dao/UserDaoSpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -918,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sh/repository/AdminRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="792">
           <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -928,7 +912,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/dao/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
+        <state relative-caret-position="378">
           <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -938,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/dao/UserDaoSpring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="306">
           <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -948,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/repository/AdminCrudRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="162">
           <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -958,7 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sh/repository/AdminRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="162">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -970,6 +954,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
