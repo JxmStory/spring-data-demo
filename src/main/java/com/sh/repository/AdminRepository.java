@@ -47,9 +47,11 @@ public interface AdminRepository extends Repository<Admin, Integer> {
     @Query("select count(id) from Admin where account like %?1%")
     long count(String account);
 
+    //使用原生sql语句 开启nativeQuery
     @Query(nativeQuery = true, value = "select count(1) from admin")
     long getCount();
 
+    //@Modifying 执行UPDATE和DELETE时需要声明
     @Modifying
     @Query("update Admin a set a.password = :password where a.id = :id")
     public void update(@Param("id")Integer id, @Param("password")String password);
